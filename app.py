@@ -14,7 +14,7 @@ while True:
       print("Please enter a int number!")
       Error = True
     if not Error and int_startmoney >= 0:
-      account = test.Bank(name=name,money=int_startmoney)
+      account = bank.Bank(name=name,money=int_startmoney)
       break
     else:
       print("start money is smaller than 0!")
